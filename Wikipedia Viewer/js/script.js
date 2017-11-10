@@ -4,7 +4,7 @@ $(document).ready(function(){
 		var searchTerm  = $("#searchAr").val();
 
 		var url = "https://en.wikipedia.org/w/api.php?action=opensearch&search="+searchTerm+"&format=json&callback=?";
-
+	//hello commited from git server 
 
 		$.ajax({
 			type:"GET",
